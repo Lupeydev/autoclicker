@@ -10,6 +10,7 @@ with open("clicksettings.json", "r") as file:
 
 enable_btn = data["enable"]
 disable_btn = data["disable"]
+clickspeed = data["speed"]
 
 click_active = False
 
@@ -26,4 +27,4 @@ while True:
 
     if click_active:
         mouse.click(Button.left, 1)
-        time.sleep(0.1)
+        time.sleep(clickspeed)

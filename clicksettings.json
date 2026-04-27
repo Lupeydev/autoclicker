@@ -1,4 +1,5 @@
 {
     "enable": "q",
-    "disable": "e"
+    "disable": "e",
+    "speed": "0.1"
 }
